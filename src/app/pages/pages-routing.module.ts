@@ -10,7 +10,7 @@ const routes: Routes = [{
   component: PagesComponent,
   children: [
     {
-      path: 'iot-dashboard',
+      path: 'dashboard',
       component: DashboardComponent,
     },
     {
@@ -20,7 +20,7 @@ const routes: Routes = [{
     },
     {
       path: '',
-      redirectTo: 'ngx-dashboard',
+      redirectTo: 'dashboard',
       pathMatch: 'full',
     },
     {
