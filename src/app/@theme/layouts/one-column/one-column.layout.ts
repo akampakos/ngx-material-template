@@ -9,6 +9,7 @@ import { Component } from '@angular/core';
         <ngx-header></ngx-header>
       </nb-layout-header>
 
+        <!-- Collapse sidebar -> Add <nb-sidebar state="compacted">-->
       <nb-sidebar class="menu-sidebar" tag="menu-sidebar" responsive>
         <ng-content select="nb-menu"></ng-content>
       </nb-sidebar>
